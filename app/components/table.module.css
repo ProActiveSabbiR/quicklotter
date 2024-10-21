@@ -1,0 +1,154 @@
+.balls {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: radial-gradient(90.14% 90.14% at 50% 25%, #fff 0%, #bbb 100%);
+  color: #101820;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+}
+
+.selectorBtns div {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 11.093px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11.093px;
+  border-radius: 5.547px;
+  border: 1.109px solid #cdcdc4;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.ballsWrapper {
+  border: 1px solid;
+  border-color: #7e0c6e;
+  width: 231px;
+  padding: 2px 0px;
+}
+
+.generatedLines {
+  border-right: 1px solid #7e0c6e;
+}
+
+.generatedLines .ballsWrapper:nth-child(even) {
+  background-color: #ede6f2;
+}
+
+.generatedLines .ballsWrapper:nth-child(odd) {
+  background-color: white;
+}
+.ballsWrapper span {
+  color: #333;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.selectorTable {
+  display: flex;
+  justify-content: center;
+  gap: 9.526px;
+  border-radius: 10px;
+  border: 1.075px solid #b3b3b3;
+  background: #f1f5f9;
+}
+
+.switchBtn {
+  background-color: #dfd7d7;
+  border-radius: 13.75px;
+  box-shadow: inset 0px 6px 8px 3px #0000001a;
+  height: 25px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.btnCircle {
+  height: 19.25px;
+  width: 19.25px;
+  flex-shrink: 0;
+  filter: drop-shadow(2px 1px 6px rgba(0, 0, 0, 0.25));
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 4px 2px;
+}
+
+.tableInfoBtn {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1.626px solid #7e0c6e;
+  background: #f1f5f9;
+}
+
+.tableInfoBtn p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #7e0c6e;
+}
+
+.lineTitle h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.infoTitles span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-lr;
+  height: 85px;
+  width: 35px;
+  border: 2px solid #333;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.infoBlocks div {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid #333;
+  background: #ffe700;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}

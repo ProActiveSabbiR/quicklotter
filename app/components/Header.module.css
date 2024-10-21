@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* Main header container */
+.header {
+  background-color: #F1F5F9;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Flexbox container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo img {
+  max-width: 100%;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #7E0C6E;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+
+.navItem:hover {
+  background-color: #7E0C6E;
+  color: #fff;
+}
+
+.bgActive {
+  background-color: #7E0C6E;
+  color: #fff;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile span {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Mobile Menu Toggle */
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menuBar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Hide navigation on small screens */
+  .nav {
+    display: none;
+  }
+
+  /* Show the menu button */
+  .menuToggle {
+    display: flex;
+  }
+
+  /* Display navigation when the menu is open */
+  .nav.active {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .navList {
+    flex-direction: column;
+  }
+
+  .navItem {
+    margin: 10px 0;
+  }
+}

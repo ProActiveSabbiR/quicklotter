@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: url(../public/images/bgImages/dim.png) repeat,
+    url(../public/images/bgImages/main2.png) repeat 50% 0;
+  background-size: 12em 6em, auto;
+}
+.ql-container {
+  max-width: 1440px;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bg-header {
+  background-color: F1F5F9;
+}
+
+.bgactive {
+  background-color: #7e0c6e;
+  color: #fff;
+}
+
+.text-default {
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Hide default spinners in WebKit (Chrome, Safari, etc.) */
+.ql-input input[type="number"]::-webkit-inner-spin-button,
+.ql-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide default spinners in Firefox */
+.ql-input input[type="number"] {
+  -moz-appearance: textfield;
+}
+.ql-input {
+  border-radius: 5px;
+  border: 1.2px solid #7e0c6e;
+  background: #fff;
+  padding: 2px;
+}
+
+/* Style for the input box */
+.custom-spinner {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.spinner-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.custom-input {
+  width: 70%;
+  text-align: center;
+  outline: none;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.spinner-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  height: 12px;
+  padding-left: 4px;
+}
+.spinner-button svg {
+  width: 8px;
+  height: 4px;
+}
+
+.spinner-button:active svg path {
+  fill: lightgray;
+}

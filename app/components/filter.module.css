@@ -1,0 +1,61 @@
+.tableInfoBtn {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1.626px solid #7e0c6e;
+  background: #f1f5f9;
+}
+
+.tableInfoBtn p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #7e0c6e;
+}
+
+.filterName {
+  display: flex;
+  width: 85.07px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2.201px solid #333;
+  cursor: pointer;
+}
+.filterName p {
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 88.056px;
+}
+
+.filterItem {
+  display: flex;
+  justify-content: center;
+}
+
+.filterBtn {
+  display: flex;
+  width: 210px;
+  height: 40px;
+  padding: 8px 15.02px 8px 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 27px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.filterBtn img{
+    margin-right: 10px;
+}
