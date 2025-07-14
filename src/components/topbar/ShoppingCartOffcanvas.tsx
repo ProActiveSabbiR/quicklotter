@@ -44,8 +44,8 @@ const ShoppingCartOffcanvas = () => {
             </div>
 
             <div className="d-grid">
-              <Link href="/shop/checkout" className="btn btn-lg btn-dark mb-0">
-                Continue to Checkout
+              <Link href="/shop/cart" className="btn btn-lg btn-dark mb-0">
+                Continue to Cart Page
               </Link>
             </div>
           </div>

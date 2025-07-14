@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero from './component/Hero'
-import Video from './component/Video'
-import Counter from './component/Counter'
-import About from './component/About'
-import CTA from './component/CTA'
-import Team from './component/Team'
+import Hero from '../about/v1/component/Hero'
+import Video from '../about/v1/component/Video'
+import Counter from '../about/v1/component/Counter'
+import About from '../about/v1/component/About'
+import CTA from '../about/v1/component/CTA'
+import Team from '../about/v1/component/Team'
 import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
@@ -33,4 +33,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page 

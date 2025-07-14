@@ -1,6 +1,6 @@
 'use client'
 import LogoBox from '@/components/LogoBox'
-import AppMenu, { type AppMenuProps } from '@/components/topbar/AppMenu/page'
+import AppMenu from '@/components/topbar/AppMenu/page'
 import StickyHeader from '@/components/topbar/AppMenu/StickyHeader'
 import MobileNavbarToggler from '@/components/topbar/MobileNavbarToggler'
 import useToggle from '@/hooks/useToggle'
@@ -24,7 +24,7 @@ type TopNavigationBarProps = {
   hideThemeToggler?: boolean
   darkButton?: { text: string; size?: ButtonProps['size'] }
   navClassName?: string
-  menuProps?: Omit<AppMenuProps, 'mobileMenuOpen'>
+  menuProps?: any
   children?: ReactNode
 }
 
@@ -58,14 +58,16 @@ const TopNavigationBar = ({
           <ul className="nav align-items-center ms-sm-2">
             <Suspense>{!hideThemeToggler && <ThemeToggleDropdown />}</Suspense>
 
-            {showSignUp && (
-              <li className="nav-item me-2 d-none d-sm-block">
-                <Link href="/auth/sign-up" className="btn btn-sm btn-light mb-0">
-                  <BsPersonCircle className="me-1" />
-                  Sign up
-                </Link>
-              </li>
-            )}
+            {/* Remove Sign In and Sign Up links, add single Sign in as nav-link with icon */}
+            <li className="nav-item d-none d-sm-block">
+              <Link href="/auth/sign-in" className="nav-link">
+                <BsPersonCircle className="me-1" />
+                Sign in
+              </Link>
+            </li>
+            <Suspense>
+              <ShoppingCartOffcanvas />
+            </Suspense>
 
             {showBuyNow && (
               <li className="nav-item d-none d-sm-block">
@@ -92,12 +94,6 @@ const TopNavigationBar = ({
             {showSearchInput && (
               <Suspense>
                 <SearchInput />
-              </Suspense>
-            )}
-
-            {showShoppingCart && (
-              <Suspense>
-                <ShoppingCartOffcanvas />
               </Suspense>
             )}
 

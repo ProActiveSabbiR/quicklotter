@@ -50,7 +50,7 @@ const PromoCode = () => {
           </span>
         </div>
         <div className="d-grid">
-          <Link href="" className="btn btn-lg btn-primary mb-0">
+          <Link href="/shop/checkout" className="btn btn-lg btn-primary mb-0">
             Continue to Checkout
           </Link>
         </div>

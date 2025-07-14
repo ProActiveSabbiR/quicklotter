@@ -9,7 +9,10 @@ import Footer8 from '@/components/footer/Footer8'
 const page = () => {
   return (
     <>
-      <TopNavigationBar showSearchInput showShoppingCart menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }} />
+      <TopNavigationBar
+        menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }}
+        darkButton={{ text: 'Get Application!', size: 'sm' }}
+      />
 
       <main>
         <Hero />

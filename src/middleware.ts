@@ -4,7 +4,7 @@ export function middleware(request: NextRequest) {
   const response = NextResponse.next()
 
   if (request.nextUrl.pathname == '/') {
-    return NextResponse.redirect(new URL('/demos/classic-default', request.url))
+    // No redirect; let Next.js serve the root page
   }
   return response
 }

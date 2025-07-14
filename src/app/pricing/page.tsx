@@ -1,9 +1,9 @@
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 import Footer1 from '@/components/footer/Footer1'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import CTA from './components/CTA'
-import FAQs from './components/FAQs'
+import Hero from '../other-pages/pricing/components/Hero'
+import Features from '../other-pages/pricing/components/Features'
+import CTA from '../other-pages/pricing/components/CTA'
+import FAQs from '../other-pages/pricing/components/FAQs'
 
 const Pricing = () => {
   return (
@@ -29,4 +29,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default Pricing 

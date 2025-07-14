@@ -12,8 +12,7 @@ const TermsNConditions = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
+        darkButton={{ text: 'Get Application!', size: 'sm' }}
       />
       <main>
         <Details />

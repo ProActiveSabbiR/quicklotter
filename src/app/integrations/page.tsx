@@ -1,10 +1,7 @@
 import React from 'react'
-import Hero from './component/Hero'
-import Video from './component/Video'
-import Counter from './component/Counter'
-import About from './component/About'
-import CTA from './component/CTA'
-import Team from './component/Team'
+import Hero from './components/Hero'
+import IntegrationGrid from './components/IntegrationGrid'
+import CTA from './components/CTA'
 import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
@@ -18,19 +15,15 @@ const page = () => {
           ulClassName: 'mx-auto',
         }}
         darkButton={{ text: 'Get Application!', size: 'sm' }}
-        data-bs-theme="dark"
       />
       <main>
         <Hero />
-        <Video />
-        <Counter />
-        <About />
+        <IntegrationGrid />
         <CTA />
-        <Team />
       </main>
       <Footer1 />
     </>
   )
 }
 
-export default page
+export default page 

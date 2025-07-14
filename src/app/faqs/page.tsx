@@ -1,14 +1,10 @@
-import React from 'react'
-import Hero from './component/Hero'
-import Video from './component/Video'
-import Counter from './component/Counter'
-import About from './component/About'
-import CTA from './component/CTA'
-import Team from './component/Team'
 import Footer1 from '@/components/footer/Footer1'
+import ActionBox from '../other-pages/faqs/components/ActionBox'
+import FAQs from '../other-pages/faqs/components/FAQs'
+import Hero from '../other-pages/faqs/components/Hero'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
-const page = () => {
+const FAQPage = () => {
   return (
     <>
       <TopNavigationBar
@@ -18,19 +14,16 @@ const page = () => {
           ulClassName: 'mx-auto',
         }}
         darkButton={{ text: 'Get Application!', size: 'sm' }}
-        data-bs-theme="dark"
       />
       <main>
         <Hero />
-        <Video />
-        <Counter />
-        <About />
-        <CTA />
-        <Team />
+        <FAQs />
+        <ActionBox />
       </main>
+
       <Footer1 />
     </>
   )
 }
 
-export default page
+export default FAQPage 
