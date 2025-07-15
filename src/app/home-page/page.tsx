@@ -7,6 +7,7 @@ import Features from './components/Features'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
 import CTA from './components/CTA'
+import Clients from './components/Clients'
 
 import React from 'react'
 
@@ -23,6 +24,7 @@ const page = () => {
       />
       <main>
         <Hero />
+        <Clients />
         <About />
         <Steps />
         <Features />

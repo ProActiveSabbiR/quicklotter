@@ -2,7 +2,6 @@ import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 import Footer1 from '@/components/footer/Footer1'
 import Hero from '../other-pages/pricing/components/Hero'
 import Features from '../other-pages/pricing/components/Features'
-import CTA from '../other-pages/pricing/components/CTA'
 import FAQs from '../other-pages/pricing/components/FAQs'
 
 const Pricing = () => {
@@ -21,7 +20,6 @@ const Pricing = () => {
       <main className="price-wrap">
         <Hero />
         <Features />
-        <CTA />
         <FAQs />
       </main>
       <Footer1 />

@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero'
-import IntegrationGrid from './components/IntegrationGrid'
+import Work from './components/Work'
+import OfficeLocation from './components/OfficeLocation'
 import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
@@ -13,15 +14,18 @@ const page = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        darkButton={{ text: 'Get Application!', size: 'sm' }}
+        showSignUp
+        showBuyNow
       />
       <main>
         <Hero />
-        <IntegrationGrid />
+        <Work />
+        <OfficeLocation />
+        <div className='py-5'></div>
       </main>
       <Footer1 />
     </>
   )
 }
 
-export default page 
+export default page

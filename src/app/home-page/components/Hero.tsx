@@ -2,7 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import appstore from '@/assets/images/elements/app-store.svg'
 import googleplay from '@/assets/images/elements/google-play.svg'
+import webapp from '@/assets/images/elements/webapp.png'
 import appImg1 from '@/assets/images/mokeup/app-placeholder.jpg'
+import appImg from '@/assets/images/mokeup/app-image.jpg'
 import appImg2 from '@/assets/images/mokeup/app-placeholder2.jpg'
 import avatar1 from '@/assets/images/avatar/01.jpg'
 import avatar7 from '@/assets/images/avatar/07.jpg'
@@ -32,13 +34,18 @@ const Hero = () => {
               <p className="mb-5">Download the app for free and get access to accurate plant diagnoses with no extra charges.</p>
               <Row className="row g-2 mb-5">
                 <div className="col-6 col-sm-4 col-md-3">
-                  <Link href="">
-                    <Image src={googleplay} className="btn-transition" alt="google-store" />
+                  <Link href="/other-pages/coming-soon">
+                    <Image src={webapp} className="btn-transition" alt="web app" width={130}/>
                   </Link>
                 </div>
                 <div className="col-6 col-sm-4 col-md-3">
-                  <Link href="">
-                    <Image src={appstore} className="btn-transition" alt="app-store" />
+                  <Link href="/other-pages/coming-soon">
+                    <Image src={googleplay} className="btn-transition" alt="google-store" width={130}/>
+                  </Link>
+                </div>
+                <div className="col-6 col-sm-4 col-md-3">
+                  <Link href="/other-pages/coming-soon">
+                    <Image src={appstore} className="btn-transition" alt="app-store" width={130}/>
                   </Link>
                 </div>
               </Row>
@@ -86,7 +93,7 @@ const Hero = () => {
                   <div
                     className="iphone-x iphone-x-small rotate-sm-343 m-auto m-sm-0 ms-sm-5 mt-4 z-index-99"
                     style={{
-                      background: `url(${appImg1.src})`,
+                      background: `url(${appImg.src})`,
                       backgroundSize: '100%',
                     }}>
                   
@@ -104,7 +111,7 @@ const Hero = () => {
                   <div
                     className="iphone-x iphone-x-small rotate-13 m-0 ms-3 mt-xl-n7"
                     style={{
-                      background: `url(${appImg2.src})`,
+                      background: `url(${appImg.src})`,
                       backgroundSize: '100%',
                     }}>
                     <b />

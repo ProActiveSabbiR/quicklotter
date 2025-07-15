@@ -41,10 +41,10 @@ const Features = () => {
 
                 <th scope="col">
                   <div className="text-center p-3">
-                    <span className="mb-3 heading-color">Basic plan</span>
+                    <span className="mb-3 heading-color">Starter</span>
                     <p className="mb-3">
-                      <span className="h2 mb-0 plan-price" data-monthly-price="$25" data-annual-price="$20">
-                        {currency}25
+                      <span className="h2 mb-0 plan-price" data-monthly-price="$12.99" data-annual-price="$49.99">
+                        {currency}12.99
                       </span>
                       /month
                     </p>
@@ -56,10 +56,10 @@ const Features = () => {
 
                 <th scope="col">
                   <div className="text-center p-3">
-                    <span className="mb-3 heading-color">Standard plan</span>
+                    <span className="mb-3 heading-color">Pro</span>
                     <p className="mb-3">
-                      <span className="h2 mb-0 plan-price" data-monthly-price="$56" data-annual-price="$45">
-                        {currency}56
+                      <span className="h2 mb-0 plan-price" data-monthly-price="$19.99" data-annual-price="$79.99">
+                        {currency}19.99
                       </span>
                       /month
                     </p>
@@ -71,10 +71,10 @@ const Features = () => {
 
                 <th scope="col">
                   <div className="text-center p-3">
-                    <span className="mb-3 heading-color">Basic plan</span>
+                    <span className="mb-3 heading-color">Unlimited</span>
                     <p className="mb-3">
-                      <span className="h2 mb-0 plan-price" data-monthly-price="$99" data-annual-price="$145">
-                        {currency}99
+                      <span className="h2 mb-0 plan-price" data-monthly-price="$35.99" data-annual-price="$99.99">
+                        {currency}35.99
                       </span>
                       /month
                     </p>
@@ -89,25 +89,7 @@ const Features = () => {
             <tbody className="border-top-0">
               <tr>
                 <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Storage space</span>
-                </th>
-                <td className="text-center"> 40GB</td>
-                <td className="text-center"> 60GB</td>
-                <td className="text-center"> Unlimited</td>
-              </tr>
-
-              <tr>
-                <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Cloud connected</span>
-                </th>
-                <td className="text-center"> Yes</td>
-                <td className="text-center"> Yes</td>
-                <td className="text-center"> Yes</td>
-              </tr>
-
-              <tr>
-                <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Coding tools</span>
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Smart Game Generation</span>
                 </th>
                 <td className="text-center text-primary">
                   <BsCheckCircle size={20} className="fa-lg" />
@@ -122,22 +104,7 @@ const Features = () => {
 
               <tr>
                 <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Advance debugging</span>
-                </th>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" />
-                </td>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" />
-                </td>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" />
-                </td>
-              </tr>
-
-              <tr>
-                <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Mobile apps</span>
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">AI Game Generation</span>
                 </th>
                 <td className="text-center text-danger">
                   <BsXCircle size={20} className="fa-lg" />
@@ -152,7 +119,22 @@ const Features = () => {
 
               <tr>
                 <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Web tools</span>
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Manual Filters</span>
+                </th>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">AI FIlters (SmartFIlter)</span>
                 </th>
                 <td className="text-center text-danger">
                   <BsXCircle size={20} className="fa-lg" />
@@ -167,7 +149,7 @@ const Features = () => {
 
               <tr>
                 <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Version control</span>
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Advanced Analysis</span>
                 </th>
                 <td className="text-center text-danger">
                   <BsXCircle size={20} className="fa-lg" />
@@ -182,13 +164,13 @@ const Features = () => {
 
               <tr>
                 <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Security</span>
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Overview Insights</span>
                 </th>
                 <td className="text-center text-danger">
                   <BsXCircle size={20} className="fa-lg" />
                 </td>
-                <td className="text-center text-danger">
-                  <BsXCircle size={20} className="fa-lg" />
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
                 </td>
                 <td className="text-center text-primary">
                   <BsCheckCircle size={20} className="fa-lg" />
@@ -197,16 +179,83 @@ const Features = () => {
 
               <tr>
                 <th scope="row">
-                  <span className="fw-normal heading-color ps-lg-4 mb-0">Team access</span>
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Saved Games</span>
                 </th>
-                <td className="text-center text-danger">
-                  <BsXCircle size={20} className="fa-lg" />
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                  <span className='text-dark'> (up to 5 lines)</span> 
                 </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" /> 
+                  <span className='text-dark'> (unlimited)</span> 
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" /> 
+                  <span className='text-dark'> (unlimited)</span> 
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Mobile & web Access</span>
+                </th>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Ticket Printing Limit</span>
+                </th>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                  <span className='text-dark'> (up to 10 lines/month)</span> 
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" /> 
+                  <span className='text-dark'> (unlimited)</span> 
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" /> 
+                  <span className='text-dark'> (unlimited)</span> 
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Ticket Checker</span>
+                </th>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  <span className="fw-normal heading-color ps-lg-4 mb-0">Dedicated Support</span>
+                </th>
                 <td className="text-center text-danger">
                   <BsXCircle size={20} className="fa-lg" />
                 </td>
                 <td className="text-center text-primary">
                   <BsCheckCircle size={20} className="fa-lg" />
+                </td>
+                <td className="text-center text-primary">
+                  <BsCheckCircle size={20} className="fa-lg" /> 
+                  <span className='text-dark'> Priority</span> 
                 </td>
               </tr>
             </tbody>

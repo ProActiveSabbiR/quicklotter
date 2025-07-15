@@ -3,7 +3,6 @@ import Hero from '../about/v1/component/Hero'
 import Video from '../about/v1/component/Video'
 import Counter from '../about/v1/component/Counter'
 import About from '../about/v1/component/About'
-import CTA from '../about/v1/component/CTA'
 import Team from '../about/v1/component/Team'
 import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
@@ -25,8 +24,7 @@ const page = () => {
         <Video />
         <Counter />
         <About />
-        <CTA />
-        <Team />
+        <Team />  
       </main>
       <Footer1 />
     </>

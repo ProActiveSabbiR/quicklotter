@@ -8,9 +8,13 @@ import googlePlay from '@/assets/images/elements/google-play.svg'
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
 import Link from 'next/link'
+import CTA from './components/CTA'
+
 
 const Footer1 = () => {
   return (
+    <>
+    <CTA/>
     <footer className="bg-dark position-relative overflow-hidden pt-6" data-bs-theme="dark">
       <DecorationPattern />
 
@@ -96,6 +100,7 @@ const Footer1 = () => {
         <CreditWithLanguage />
       </Container>
     </footer>
+    </>
   )
 }
 

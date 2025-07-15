@@ -1,6 +1,32 @@
 import { UserType } from '@/types/user'
 import { StaticImageData } from 'next/image'
 import { IconType } from 'react-icons'
+import type { ReactNode } from 'react'
+
+
+export type ClientType = {
+  icon?: string
+  image?: StaticImageData
+  name?: string
+  url?: string
+}
+
+export type ServiceType = {
+  icon?: ReactNode
+  image?: StaticImageData
+  title: string
+  description?: string
+  url?: string
+}
+
+export type TestimonialType = {
+  userId?: UserType['id']
+  user: UserType
+  title?: string
+  comment: string
+  rating?: number
+}
+
 
 export type PartnerType = {
   icon: IconType
@@ -40,10 +66,4 @@ export type PricingType = {
   plans: PricingPlanType[]
 }
 
-export type TestimonialType = {
-  userId?: UserType['id']
-  user: UserType
-  title?: string
-  comment: string
-  rating?: number
-}
+

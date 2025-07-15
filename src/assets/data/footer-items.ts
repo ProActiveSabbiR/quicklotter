@@ -155,15 +155,12 @@ export const communityLinks: FooterLinkType[] = [
     link: '/other-pages/faqs',
   },
   {
-    name: 'Privacy Policy',
-  },
-  {
     name: 'News and blogs',
     link: '/blog/grid',
   },
   {
-    name: 'Terms & condition',
-    link: '/other-pages/terms-conditions',
+    name: 'Privacy Policy',
+    link: '/other-pages/privacy-policy',
   },
 ]
 

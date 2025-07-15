@@ -17,7 +17,6 @@ const TermsNConditions = () => {
       <main>
         <Details />
 
-        <CTA />
       </main>
 
       <Footer1 />

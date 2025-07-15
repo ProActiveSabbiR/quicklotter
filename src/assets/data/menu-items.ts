@@ -115,6 +115,11 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
     url: '/about',
   },
   {
+    key: 'contact',
+    label: 'Contact us',
+    url: '/contact'
+  },
+  {
     key: 'faq',
     label: 'FAQ',
     url: '/faqs',

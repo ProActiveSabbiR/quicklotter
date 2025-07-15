@@ -1,4 +1,4 @@
-import Footer8 from '@/components/footer/Footer8'
+import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 import CartDetail from './components/CartDetail'
 import Faqs from './components/Faqs'
@@ -13,7 +13,7 @@ const page = () => {
         <CartDetail />
         <Faqs />
       </main>
-      <Footer8 />
+      <Footer1 />
     </>
   )
 }
