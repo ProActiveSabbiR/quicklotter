@@ -1,10 +1,12 @@
+"use client"
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import appstore from '@/assets/images/elements/app-store.svg'
 import googleplay from '@/assets/images/elements/google-play.svg'
 import webapp from '@/assets/images/elements/webapp.png'
-import appImg1 from '@/assets/images/mokeup/app-placeholder.jpg'
 import appImg from '@/assets/images/mokeup/app-image.jpg'
+import appImg1 from '@/assets/images/mokeup/app-placeholder.jpg'
 import appImg2 from '@/assets/images/mokeup/app-placeholder2.jpg'
 import avatar1 from '@/assets/images/avatar/01.jpg'
 import avatar7 from '@/assets/images/avatar/07.jpg'
@@ -14,7 +16,23 @@ import { Col, Row } from 'react-bootstrap'
 import { BsPatchCheckFill } from 'react-icons/bs'
 import { partners } from '../data'
 
+const images = [appImg, appImg1, appImg2];
+
 const Hero = () => {
+  const [currentImg, setCurrentImg] = useState(0);
+  const [fade, setFade] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false);
+      setTimeout(() => {
+        setCurrentImg((prev) => (prev + 1) % images.length);
+        setFade(true);
+      }, 500); // fade out duration
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <section className="overflow-hidden pt-lg-9">
@@ -93,8 +111,10 @@ const Hero = () => {
                   <div
                     className="iphone-x iphone-x-small rotate-sm-343 m-auto m-sm-0 ms-sm-5 mt-4 z-index-99"
                     style={{
-                      background: `url(${appImg.src})`,
+                      background: `url(${images[currentImg].src})`,
                       backgroundSize: '100%',
+                      transition: 'opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                      opacity: fade ? 1 : 0,
                     }}>
                   
                     <b />
@@ -111,8 +131,10 @@ const Hero = () => {
                   <div
                     className="iphone-x iphone-x-small rotate-13 m-0 ms-3 mt-xl-n7"
                     style={{
-                      background: `url(${appImg.src})`,
+                      background: `url(${images[currentImg].src})`,
                       backgroundSize: '100%',
+                      transition: 'opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                      opacity: fade ? 1 : 0,
                     }}>
                     <b />
                   </div>
