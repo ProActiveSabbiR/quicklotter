@@ -114,17 +114,17 @@ export const features: FeatureType[] = [
   {
     icon: BsClock,
     title: 'Get started in a minutes',
-    description: "We've made it effortless so you can focus on what matters most.",
+    description: "We’ve made it effortless so you can focus on what really matters: your lottery plays.",
   },
   {
     icon: BsGraphUpArrow,
-    title: 'Optimize your revenue',
-    description: 'Experience power of revenue optimization to heights of success.',
+    title: 'Optimize your chances',
+    description: 'Experience the full power of lottery optimization for smarter, more strategic games.',
   },
   {
     icon: BsHeadset,
     title: '24/7 customer supports',
-    description: 'Our dedicated support team is your inquiries around the clock.',
+    description: 'Our dedicated support team is here for your questions, any time you need help.',
   },
 ]
 

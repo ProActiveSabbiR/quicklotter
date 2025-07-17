@@ -22,8 +22,8 @@ const Pricing = () => {
       <Container>
         <Row className="g-4 g-lg-5">
           <Col lg={4} className="text-center text-lg-start">
-            <h2 className="mb-4">Pick the best plan that suits you</h2>
-            <p className="mb-4">Two before narrow not relied how except moment myself Dejection assurance mrs led certainly.</p>
+            <h2 className="mb-4">Pick the best plan for your play style</h2>
+            <p className="mb-4">Choose your plan and unlock the smartest way to play—no risk, no guesswork.</p>
 
             <Form className="d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-xl-0">
               <span className="fw-semibold heading-color">Monthly</span>
@@ -54,7 +54,7 @@ const Pricing = () => {
                             </span>
                             /{item.duration}
                           </h6>
-                          <h6>Quick look at all the features</h6>
+                          <h6>See all features at a glance</h6>
 
                           <ul className="list-group list-group-borderless mb-2 mb-sm-4">
                             {plan.features.map((feature, idx) => {

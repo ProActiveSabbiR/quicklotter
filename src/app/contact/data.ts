@@ -1,10 +1,10 @@
 import { BsDribbble, BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs'
 import type { FollowUsType, LocationType, WorkType } from './types'
-import webflowImg from '@/assets/images/elements/webflow.svg'
-import bootstrapImg from '@/assets/images/elements/bootstrap.svg'
-import githubImg from '@/assets/images/elements/github.svg'
+import californiaImg from '@/assets/images/lottery/cf.png'
+import texasImg from '@/assets/images/lottery/tx.png'
+import floridaImg from '@/assets/images/lottery/fl.png'
 import usflagImg from '@/assets/images/flags/us.svg'
-import indianflagImg from '@/assets/images/flags/in.svg'
+import brazilflagImg from '@/assets/images/flags/br.svg'
 
 export const followUsIcons: FollowUsType[] = [
   {
@@ -31,19 +31,19 @@ export const followUsIcons: FollowUsType[] = [
 
 export const works: WorkType[] = [
   {
-    image: webflowImg,
-    title: 'Webflow templates',
-    description: 'The combination of my passion for design',
+    image: californiaImg,
+    title: 'California',
+    description: 'Launching soon — get ready to play smarter in the Golden State!',
   },
   {
-    image: bootstrapImg,
-    title: 'Bootstrap templates',
-    description: 'It drew a hill from my the passion for design',
+    image: texasImg,
+    title: 'Texas',
+    description: 'Launching soon — the smartest way to play the Texas Lottery is coming!',
   },
   {
-    image: githubImg,
-    title: 'Contribute on Github',
-    description: 'Supposing so be resolving breakfast am or perfectly.',
+    image: floridaImg,
+    title: 'Florida',
+    description: 'Launching soon — Quick Lotter will transform the way Florida plays!',
   },
 ]
 
@@ -51,13 +51,13 @@ export const locations: LocationType[] = [
   {
     countryName: 'United States',
     address: '55/123 Norman street, Banking road, Sydney NSW 5000',
-    number: '469-537-2410 (Toll-free)',
+    number: ' +1-800-QUICKLOT (Toll-free)',
     image: usflagImg,
   },
   {
-    countryName: 'India',
+    countryName: 'Brazil',
     address: '55/123 Norman street, Banking road, Sydney NSW 5000',
-    number: '469-537-2410 (Toll-free)',
-    image: indianflagImg,
+    number: ' +1-800-QUICKLOT (Toll-free)',
+    image: brazilflagImg,
   },
 ]

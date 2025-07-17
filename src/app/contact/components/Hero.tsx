@@ -12,12 +12,12 @@ const Hero = () => {
         <Row className="justify-content-between">
           <Col lg={6} className="mb-6 mb-lg-0">
             <div className="d-flex flex-column h-100">
-              <h1 className="mb-3">Get in touch for more information</h1>
+              <h1 className="mb-3">Contact Quick Lotter for more information</h1>
               <p className="mb-0">
-                You can reach us anytime via <Link href="">example@gmail.com</Link>
+                You can reach us anytime at  <Link href="">support@quicklotter.com</Link>
               </p>
               <div className="d-sm-flex gap-3 align-items-center my-5">
-                <h6 className="mb-3 mb-sm-0">Follow us on:</h6>
+                <h6 className="mb-3 mb-sm-0">Follow Quick Lotter on:</h6>
                 <ul className="list-inline flex-wrap mb-0 d-flex gap-1">
                   {followUsIcons.map((item, idx) => {
                     const Icon = item.icon

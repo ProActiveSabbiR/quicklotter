@@ -82,33 +82,33 @@ export const statData: StatisticType[] = [
 
 export const services: ServiceType[] = [
   {
-    title: 'Business analysis',
-    description: "Our Business Analysis service is the first step in understanding your organization's current state.",
+    title: 'Game analysis',
+    description: "Discover hidden patterns and stats to improve your lottery strategy.",
     icon: businessIcon,
   },
   {
-    title: 'Strategic planning',
-    description: 'We work closely with you to develop a tailored roadmap that aligns with your goals and objectives.',
+    title: 'Game planning',
+    description: 'Discover hidden patterns and stats to improve your lottery strategy.',
     icon: strategicIcon,
   },
   {
-    title: 'Marketing strategy',
-    description: "Our Marketing Strategy service is designed to elevate your brand's visibility and engagement.",
+    title: 'Winning strategy',
+    description: "Use advanced filters and expert tips to boost your odds and maximize every ticket.",
     icon: marketingIcon,
   },
   {
-    title: 'Experience design',
-    description: 'From website design to app development, we blend aesthetics with usability to leave a lasting impression.',
+    title: 'User experience',
+    description: 'Seamless design for generating, checking, and printing tickets with ease.',
     icon: designIcon,
   },
   {
-    title: 'Business consulting',
-    description: 'Our consultants become your trusted advisors on the path to success.',
+    title: 'Premium support',
+    description: 'Get fast, personalized support whenever you need help.',
     icon: businessIcon2,
   },
   {
-    title: 'Tax consultant',
-    description: "We're here to optimize your tax strategy, so you can focus on what matters most to your business.",
+    title: 'Subscription management',
+    description: "Choose your plan, manage payments, and focus on playing—leave the rest to us.",
     icon: taxIcon,
   },
 ]
@@ -181,7 +181,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Billy',
       lastName: 'Vasquez',
     },
-    comment: 'Timed voice share led him to widen noisy young. At weddings believed laughing.',
+    comment: "Quick Lotter made my lottery experience so much smarter! I love the automatic game generation and real-time analysis. Now I only play the best numbers!",
     rating: 5,
   },
   {
@@ -191,7 +191,7 @@ export const testimonials: TestimonialType[] = [
       lastName: 'Watson',
     },
     comment:
-      "Moonlight newspaper up its enjoyment agreeable depending. Timed voice share led him to widen noisy young. At weddings believed laughing we've just launched our 5th website! You guys rock!",
+      "With Quick Lotter, I finally understand my odds! The analysis tools are so clear, and printing my tickets at home is just brilliant. Highly recommend for anyone who takes lottery seriously.",
     rating: 4.5,
   },
   {
@@ -200,7 +200,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Larry',
       lastName: 'Lawson',
     },
-    comment: 'Timed voice share led him to widen noisy young. At weddings believed laughing.',
+    comment: "I always struggled to choose numbers, but Quick Lotter's AI suggestions and filters made everything easier. I can generate, analyze, and print in seconds!",
     rating: 3.5,
   },
   {
@@ -209,7 +209,8 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Carolyn',
       lastName: 'Ortiz',
     },
-    comment: 'The experience of using Mizzle was enjoyable and easy. Timed voice share led him to widen noisy young. At weddings believed laughing.',
+    comment: "Using Quick Lotter is fun and easy. The overview feature helps me track all my games, and the ticket checker is spot on. It’s saved me a lot of time!"
+,
     rating: 5,
   },
   {
@@ -219,7 +220,8 @@ export const testimonials: TestimonialType[] = [
       lastName: 'Barrett',
     },
     comment:
-      "I'm really happy with the Mizzle service. we've just launched our 5th website - they're amazing! At weddings believed laughing we've just launched our 5th website! You guys rock",
+      "I finally won a small prize thanks to Quick Lotter’s filters and smart combos! The ability to print tickets and check results instantly is a game changer."
+,
     rating: 4.5,
   },
   {
@@ -228,7 +230,8 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Lori',
       lastName: 'Stevens',
     },
-    comment: "I am really satisfied with my service. Thanks to service, we've just launched our 5th website! You guys rock!",
+    comment: "I’m really happy with Quick Lotter. Managing my favorite games, generating tickets, and analyzing draws – all in one place! This is the best lottery tool I’ve tried."
+,
     rating: 5,
   },
   {
@@ -237,7 +240,8 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Joan',
       lastName: 'Wallace',
     },
-    comment: 'Timed voice share led him to widen noisy young. At weddings believed laughing.',
+    comment: "Before Quick Lotter, I wasted a lot of time at the store. Now I generate and print my tickets at home. The statistics and history features are super helpful!"
+,
     rating: 5,
   },
   {
@@ -246,7 +250,8 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Jacqueline',
       lastName: 'Miller',
     },
-    comment: 'I am really satisfied with my service. You guys rock!',
+    comment: "The ticket generator is so convenient! I can try different combinations, use smart filters, and print perfect playslips every time. Love it!"
+,
     rating: 3.5,
   },
   {
@@ -256,7 +261,8 @@ export const testimonials: TestimonialType[] = [
       lastName: 'Ferguson',
     },
     comment:
-      "We've just launched our 5th website - they're amazing! At weddings believed laughing we've just launched our 5th website! You guys rock",
+      "Quick Lotter is simple, powerful, and fast. Their support is also amazing. I never miss a drawing anymore!"
+,
     rating: 4,
   },
 ]

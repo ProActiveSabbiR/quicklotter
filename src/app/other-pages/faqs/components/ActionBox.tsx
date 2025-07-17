@@ -38,7 +38,7 @@ const ActionBox = () => {
                 you.
               </p>
 
-              <Link href="/contact/v1" className="btn btn-lg btn-dark mb-0">
+              <Link href="/contact" className="btn btn-lg btn-dark mb-0">
                 Contact us
               </Link>
             </Col>

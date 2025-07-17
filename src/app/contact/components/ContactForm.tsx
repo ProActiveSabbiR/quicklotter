@@ -11,7 +11,7 @@ const ContactForm = () => {
     name: yup.string().required('please enter your name'),
     email: yup.string().email('please enter valid email').required('please enter your email'),
     phoneNo: yup.number().required('please enter your phone no'),
-    company: yup.string().required('please enter company name'),
+    state: yup.string().required('please enter Your state name'),
     message: yup.string().required('please enter your message'),
   })
 
@@ -49,13 +49,13 @@ const ContactForm = () => {
         placeholder="(xxx) xx xxxx"
       />
       <TextFormInput
-        name="company"
-        label="Company *"
+        name="state"
+        label="state *"
         labelClass="heading-color"
         size="lg"
         control={control}
         containerClass="col-md-6"
-        placeholder="Company name"
+        placeholder="Your state"
       />
 
       <TextAreaFormInput

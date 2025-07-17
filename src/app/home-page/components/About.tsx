@@ -63,47 +63,37 @@ const About = () => {
               </Row>
             </div>
             <div className="col-lg-6 order-lg-2">
-              <h2 className="mb-4 mb-lg-5">Mizzle: Instant plant diagnostics</h2>
+              <h2 className="mb-4 mb-lg-5">Quick Lotter: Instant lottery insights</h2>
               <p className="mb-4 mb-lg-5">
-                Take the guesswork out of diagnosing your plants with Mizzle. Our app uses advanced technology to quickly and accurately diagnose any
-                plant problem, so you can get back to enjoying your garden.
+                Take the guesswork out of playing lottery. Quick Lotter uses advanced tech to instantly generate, analyze, and check your tickets—so you can focus on the excitement of the draw.
               </p>
               <div className="d-flex flex-wrap gap-5 mb-4 mb-lg-5">
                 <div>
                   <div className="d-flex">
                     <h5 className="purecounter mb-0">
-                      <CountUp start={0} end={15} delay={1} duration={3} />
-                    </h5>
-                    <span className="h5 mb-0">M+</span>
-                  </div>
-                  <span>Total Downloads</span>
-                </div>
-                <div>
-                  <div className="d-flex">
-                    <h5 className="purecounter mb-0">
-                      <CountUp start={0} end={22} delay={1} duration={3} />
-                    </h5>
-                    <span className="h5 mb-0">M+</span>
-                  </div>
-                  <span>Total Followers</span>
-                </div>
-                <div>
-                  <div className="d-flex">
-                    <h5 className="purecounter mb-0">
-                      <CountUp start={0} end={2300} delay={1} duration={3} />
+                      <CountUp start={0} end={50000} delay={1} duration={3} />
                     </h5>
                     <span className="h5 mb-0">+</span>
                   </div>
-                  <span>Total Reviews</span>
+                  <span> App Downloads</span>
                 </div>
                 <div>
                   <div className="d-flex">
                     <h5 className="purecounter mb-0">
-                      <CountUp start={0} end={107} delay={1} duration={3} />
+                      <CountUp start={0} end={22000} delay={1} duration={3} />
                     </h5>
                     <span className="h5 mb-0">+</span>
                   </div>
-                  <span>Total Countries</span>
+                  <span> Subscribers</span>
+                </div>
+                <div>
+                  <div className="d-flex">
+                    <h5 className="purecounter mb-0">
+                      <CountUp start={0} end={2000} delay={1} duration={3} />
+                    </h5>
+                    <span className="h5 mb-0">+</span>
+                  </div>
+                  <span> 5-star Reviews</span>
                 </div>
               </div>
               <Link href="" className="btn btn-dark mb-0">

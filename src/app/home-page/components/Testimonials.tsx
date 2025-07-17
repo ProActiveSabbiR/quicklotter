@@ -25,7 +25,7 @@ const Testimonials = () => {
     <section className="pb-10 ">
       <Container>
         <div className="inner-container-small text-center mb-4 mb-sm-5">
-          <h2 className="mb-0">What people say about us</h2>
+          <h2 className="mb-0">What players say about us</h2>
         </div>
 
         <Row className="row-cols-sm-2 row-cols-lg-3 g-4 g-lg-5 demo-grid" data-isotope='{"layoutMode": "masonry"}'>

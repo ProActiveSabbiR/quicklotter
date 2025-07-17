@@ -8,23 +8,23 @@ import avatar11 from '@/assets/images/avatar/11.jpg'
 
 export const statData: StatisticType[] = [
   {
-    title: 'Happy Customers',
-    stat: 600,
+    title: 'Happy Players',
+    stat: 60000,
     suffix: '+',
   },
   {
-    title: 'Acquired Users',
-    stat: 200,
+    title: 'Games Generated',
+    stat: 10000,
     suffix: '+',
   },
   {
-    title: 'Positive User Reviews',
-    stat: 10,
-    suffix: 'K+',
+    title: 'Positive Reviews',
+    stat: 2000,
+    suffix: '+',
   },
   {
-    title: 'Completed Projects',
-    stat: 25,
+    title: 'Lottery Games Supported',
+    stat: 50,
     suffix: '+',
   },
 ]
@@ -33,22 +33,22 @@ export const features: FeatureType[] = [
   {
     title: 'Innovation-driven',
     icon: robotIcon,
-    description: 'Elevate your digital presence with our innovation-driven approach',
+    description: 'Our unique technology helps you play smarter, not harder.',
   },
   {
     title: 'Transparent approach',
     icon: bulbIcon,
-    description: "At our digital agency, transparency isn't just a buzzword",
+    description: "Fair play, honest results, and no surprises for players.",
   },
   {
-    title: 'Accessible technology',
+    title: 'Accessible for everyone',
     icon: technologyIcon,
-    description: 'Celebrate Inclusivity with Accessible Technology.',
+    description: 'Enjoy Quick Lotter anywhere, anytime, on any device.',
   },
   {
-    title: 'Collaborative teamwork',
+    title: 'Community-driven',
     icon: wifiIcon,
-    description: 'We believe that the best results are born from the synergy of diverse',
+    description: 'The best lottery experience comes from listening to real players.',
   },
 ]
 

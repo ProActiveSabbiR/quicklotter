@@ -7,10 +7,9 @@ const Features = () => {
     <section className="pb-0">
       <Container>
         <div className="inner-container-small text-center mb-9">
-          <h2 className="mb-4">Features that make app different!</h2>
+          <h2 className="mb-4">Features that make Quick Lotter different!</h2>
           <p className="mb-0">
-            Our app uses advanced technology to quickly and accurately diagnose any plant problem. It drew a hill from me. Valley by oh twenty direct
-            me so.
+            Manage your lottery betting games using the tools available within the 100% responsive web application, compatible with various mobile devices.
           </p>
         </div>
 
@@ -65,8 +64,8 @@ const Features = () => {
                 </div>
                 <h5 className="mb-3">Secure data</h5>
                 <p className="mb-0">
-                  Enjoy peace of mind knowing your data is safe and secure. Our state-of-the-art encryption technology ensures data privacy.
-                </p>
+                 Enjoy peace of mind knowing your data is safe and secure. Our state-of-the-art encryption technology ensures data privacy.
+                 </p>
               </div>
 
               <div className="text-lg-end">
@@ -74,7 +73,8 @@ const Features = () => {
                   <BsFingerprint size={24} className="fa-lg" />
                 </div>
                 <h5 className="mb-3">Secure payments</h5>
-                <p className="mb-0">Pay securely with all major payment methods. We provide the utmost security for your payments.</p>
+                <p className="mb-0">All subscriptions and purchases are processed securely. Your financial information stays protected.
+                </p>
               </div>
             </Col>
 
@@ -153,7 +153,7 @@ const Features = () => {
                 </div>
                 <h5 className="mb-3">Fully functional app</h5>
                 <p className="mb-0">
-                  Experience the power of our fully-featured mobile app. Quickly identify problems, get recommendations, and track your progress.
+                  Generate, analyze, print, and check tickets anywhere—mobile, tablet, or desktop.
                 </p>
               </div>
 
@@ -161,7 +161,7 @@ const Features = () => {
                 <div className="icon-lg bg-primary text-white rounded mb-3 flex-centered">
                   <BsChevronBarContract size={24} className="fa-lg" />
                 </div>
-                <h5 className="mb-3">End-to-end encryption</h5>
+                <h5 className="mb-3">End-to-end privacy</h5>
                 <p className="mb-0">Secure your data with end-to-end encryption, keeping your sensitive information safe and secure.</p>
               </div>
             </Col>

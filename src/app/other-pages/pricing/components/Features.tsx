@@ -11,8 +11,8 @@ const Features = () => {
         <div className="inner-container-small text-center mb-4 mb-sm-6">
           <h2 className="mb-4">Features included in every plan</h2>
           <p className="mb-0">
-            Our passion for customer excellence is just one reason why we are the market leader. We&apos;ve always worked very hard to give our customers
-            the best experience.
+            Our passion for player experience is just one reason why we lead the lottery revolution. We work tirelessly to deliver the best results for our users.
+
           </p>
         </div>
 
@@ -181,17 +181,14 @@ const Features = () => {
                 <th scope="row">
                   <span className="fw-normal heading-color ps-lg-4 mb-0">Saved Games</span>
                 </th>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" />
-                  <span className='text-dark'> (up to 5 lines)</span> 
+                <td className="text-center ">
+                  <span> up to 5 lines</span> 
                 </td>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" /> 
-                  <span className='text-dark'> (unlimited)</span> 
+                <td className="text-center ">
+                  <span> unlimited</span> 
                 </td>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" /> 
-                  <span className='text-dark'> (unlimited)</span> 
+                <td className="text-center ">
+                  <span> unlimited</span> 
                 </td>
               </tr>
 
@@ -214,17 +211,14 @@ const Features = () => {
                 <th scope="row">
                   <span className="fw-normal heading-color ps-lg-4 mb-0">Ticket Printing Limit</span>
                 </th>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" />
-                  <span className='text-dark'> (up to 10 lines/month)</span> 
+                <td className="text-center ">
+                  <span> up to 10 lines/month</span> 
                 </td>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" /> 
-                  <span className='text-dark'> (unlimited)</span> 
+                <td className="text-center ">
+                  <span > unlimited</span> 
                 </td>
-                <td className="text-center text-primary">
-                  <BsCheckCircle size={20} className="fa-lg" /> 
-                  <span className='text-dark'> (unlimited)</span> 
+                <td className="text-center ">
+                  <span>unlimited</span> 
                 </td>
               </tr>
 

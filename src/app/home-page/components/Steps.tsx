@@ -18,10 +18,9 @@ const Steps = () => {
       <section className="pb-0">
         <Container>
           <div className="inner-container-small text-center mb-4 mb-sm-5">
-            <h2 className="mb-4">Get plant diagnoses in 3 easy steps</h2>
+            <h2 className="mb-4">Get the Quick Lotter App in 3 easy steps</h2>
             <p className="mb-0">
-              Simply take a picture of your plant and get an instant identification. Our app uses advanced technology to quickly and accurately
-              diagnose any plant problem
+              Experience the full power of Quick Lotter. Discover various tools and strategies to increase your chances of winning the lottery!
             </p>
           </div>
 
@@ -42,7 +41,7 @@ const Steps = () => {
                 <CardBody className="p-0 pb-5">
                   <div className="icon-lg bg-dark rounded-circle fw-bold text-white mb-3">01</div>
                   <h5>Download app</h5>
-                  <p className="heading-color">Download the Mizzle app for Windows, Mac, or Android devices.</p>
+                  <p className="heading-color">Download Quick Lotter for Android, iOS, or use the Web App.</p>
                   <div className="icons-center gap-3">
                     <Link href="">
                       <Image src={androidImg} className="h-30px" alt="icon-img" />
@@ -76,10 +75,10 @@ const Steps = () => {
                 <CardBody className="p-0 pb-5">
                   <div className="icon-lg bg-dark rounded-circle fw-bold text-white mb-3">02</div>
                   <h5>Create account</h5>
-                  <p className="heading-color">Sign up for a free Mizzle account. One account for all devices.</p>
+                  <p className="heading-color">Sign up for a free Quick Lotter account. One login for all your devices.</p>
 
                   <Link href="" className="btn btn-sm btn-white mb-0">
-                    14 days free trial
+                    3 days free trial
                   </Link>
                 </CardBody>
 
@@ -102,10 +101,10 @@ const Steps = () => {
               <Card className="bg-light overflow-hidden p-4 p-sm-5 h-100">
                 <CardBody className="p-0 pb-5">
                   <div className="icon-lg bg-dark rounded-circle fw-bold text-white mb-3">03</div>
-                  <h5>You&apos;re ready to go</h5>
-                  <p className="heading-color mb-2">Enjoy the amazing Mizzle experience and start exploring the app today.</p>
+                  <h5>You&apos;re ready to play smarter</h5>
+                  <p className="heading-color mb-2">Experience the full power of Quick Lotter and increase your chances of winning a ticket.</p>
 
-                  <Link href="">Check our FAQs for help</Link>
+                  <Link href="./faqs">Check our FAQs for help</Link>
                 </CardBody>
 
                 <CardFooter className="bg-transparent p-0 mb-n9 ms-n5 mt-4">

@@ -40,7 +40,7 @@ const Hero = () => {
           <Row>
             <div className="col-lg-6 mb-5 mb-sm-8 mb-md-9 mb-lg-0">
               <h1 className="position-relative lh-base mb-4">
-                With Quick Lotter, you're not playing by luck - you're playing with startegy.
+                With Quick Lotter, you’re not playing by luck – you’re playing with strategy.
                 <span className="position-absolute top-0 start-0 translate-middle mt-1 ms-n5">
                   <svg className="fill-primary" width={86} height={105} viewBox="0 0 86 105" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M50.9805 4.63769C51.6165 4.24345 56.4262 10.3524 61.7246 18.1163C67.0564 25.8003 72.7966 35.1061 75.9634 40.6314C82.2158 51.6489 85.8889 61.2748 84.5362 62.0301C83.1029 62.7522 77.2708 54.3462 71.0415 43.3853C67.8986 37.9165 62.7042 28.3199 58.293 20.1246C53.8819 11.9293 50.2874 5.05535 50.9805 4.63769Z" />
@@ -49,7 +49,7 @@ const Hero = () => {
                   </svg>
                 </span>
               </h1>
-              <p className="mb-5">Download the app for free and get access to accurate plant diagnoses with no extra charges.</p>
+              <p className="mb-5">Smart game generation, real-time analysis, ticket printing, and much more.</p>
               <Row className="row g-2 mb-5">
                 <div className="col-6 col-sm-4 col-md-3">
                   <Link href="/other-pages/coming-soon">
@@ -68,7 +68,7 @@ const Hero = () => {
                 </div>
               </Row>
               <div className="d-sm-flex gap-3 align-items-center">
-                <h6 className="mb-3 mb-sm-0">Global Partner:</h6>
+                <h6 className="mb-3 mb-sm-0">Trusted by lottery players worldwide:</h6>
                 <ul className="list-inline flex-wrap d-flex mb-0 gap-1">
                   {partners.map((partner, idx) => {
                     const Icon = partner.icon
@@ -111,8 +111,10 @@ const Hero = () => {
                   <div
                     className="iphone-x iphone-x-small rotate-sm-343 m-auto m-sm-0 ms-sm-5 mt-4 z-index-99"
                     style={{
-                      background: `url(${images[currentImg].src})`,
+                      backgroundImage: `url(${images[currentImg].src})`,
                       backgroundSize: '100%',
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'center',
                       transition: 'opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1)',
                       opacity: fade ? 1 : 0,
                     }}>
@@ -131,8 +133,10 @@ const Hero = () => {
                   <div
                     className="iphone-x iphone-x-small rotate-13 m-0 ms-3 mt-xl-n7"
                     style={{
-                      background: `url(${images[currentImg].src})`,
+                      backgroundImage: `url(${images[currentImg].src})`,
                       backgroundSize: '100%',
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'center',
                       transition: 'opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1)',
                       opacity: fade ? 1 : 0,
                     }}>

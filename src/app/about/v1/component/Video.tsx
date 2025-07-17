@@ -23,13 +23,13 @@ const Video = () => {
                 <BsQuote className="bi" />
               </div>
               <hr className="w-50 border-2 border-white opacity-9 my-5" />
-              <h5 className="text-white fw-light">&quot;We believe that it takes great people to deliver a great product&quot;</h5>
-              <div className="blockquote-footer text-white mb-0 fs-6 mt-3">Albert Schweitzer</div>
+              <h5 className="text-white fw-light">&quot;We believe a great lottery app is built with passion, innovation, and trust."&quot;</h5>
+              <div className="blockquote-footer text-white mb-0 fs-6 mt-3">Quick Lotter Team</div>
             </Card>
           </Col>
           <Col lg={8} className="position-relative ms-auto ps-xl-6 mt-6">
             <div className="bg-white shadow rounded position-absolute z-index-2 top-0 end-0 rotate-13 px-4 py-2 z-index-2 me-xxl-n5 d-none d-sm-block">
-              <span className="h5 text-dark">10+ Years of experience</span>
+              <span className="h5 text-dark">10+ Years building lottery solutions</span>
             </div>
             <Card as={CardBody} className="overflow-hidden p-0">
               <Image src={about13} className="card-img" alt="video-img" />

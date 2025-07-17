@@ -38,7 +38,7 @@ const CTA = () => {
           </figure>
           <Row className="g-4 position-relative">
             <Col lg={6}>
-              <h3 className="text-white">Let&apos;s talk about your digital agency goals</h3>
+              <h4 className="text-white">Don’t miss your chance – subscribe for lottery tips and exclusive updates!</h4>
 
               <Col as={Form} md={10} className="bg-body rounded-2 p-2 mt-4">
                 <InputGroup>

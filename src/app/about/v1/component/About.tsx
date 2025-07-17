@@ -8,13 +8,13 @@ import Link from 'next/link'
 
 const About = () => {
   const features2 = [
-    'Strategic Call-to-Actions',
-    'Content-Rich Sections',
-    'Social Media Integration',
-    'Easy-to-Use Contact Forms',
-    'Performance Analytics',
-    'Fast Loading Speed',
-    'Tested on Major Browsers',
+    'Strategic number selection',
+    'Game-rich features',
+    'Advanced analytics',
+    'Instant load and results',
+    'Share your wins easily',
+    'Easy ticket management',
+    'Works everywhere',
   ]
   const featureChunk = splitArray(features2, 2)
   return (
@@ -61,14 +61,13 @@ const About = () => {
             <Image src={about14} className="rounded" alt="about-img" />
           </Col>
           <Col lg={6} className="ps-md-5">
-            <h2 className="mb-4">Boost your business efficiency with Mizzle.</h2>
+            <h2 className="mb-4">Boost your lottery results with Quick Lotter.</h2>
             <p className="mb-0">
-              Elevate your online presence and embark on a journey to digital excellence with our meticulously designed digital agency theme.
+              Join thousands of players using smart tools and technology to transform how they play, analyze, and win — all in one app.
             </p>
             <hr className="my-4" />
             <p>
-              At the heart of our theme is a commitment to providing a robust and versatile platform that accommodates the diverse needs of digital
-              agencies.
+              At the heart of Quick Lotter is the mission to make lottery more strategic, fun, and accessible for everyone.
             </p>
             <Row className="row-cols-1 row-cols-sm-2">
               {featureChunk.map((chunk, idx) => {
@@ -87,9 +86,9 @@ const About = () => {
               })}
             </Row>
             <div className="text-center d-inline-block bg-dark rounded px-5 py-3 mt-4 mt-lg-5">
-              <span className="text-white">Work with us?</span>
-              <Link className="ms-2" href="/contact/v2">
-                Contact us now
+              <span className="text-white">Ready to play?</span>
+              <Link className="ms-2" href="/contact">
+                 Join Quick Lotter now
                 <BsChevronRight className="small ms-1" />
               </Link>
             </div>

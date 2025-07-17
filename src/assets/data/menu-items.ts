@@ -107,7 +107,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
   {
     key: 'how-it-works',
     label: 'How it works',
-    url: '/integrations',
+    url: '/how-it-works',
   },
   {
     key: 'about',

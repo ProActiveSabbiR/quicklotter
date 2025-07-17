@@ -13,7 +13,7 @@ const Clients = () => {
       <Container>
         <Row className="align-items-center">
           <Col md={3} className="mb-2 mb-md-0">
-            <h5 className="pe-6">100+ Companies trust us</h5>
+            <h5 className="pe-6">Over 400+ different lottery games</h5>
           </Col>
           <Col md={9}>
             <Swiper

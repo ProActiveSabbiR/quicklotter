@@ -31,10 +31,9 @@ const Work = () => {
     <section className="pt-0">
       <Container>
         <div className="inner-container-small text-center mb-4 mb-sm-6">
-          <h2 className="mb-2">Follow our work</h2>
+          <h2 className="mb-2">Upcoming States – Launching Soon</h2>
           <p className="mb-0">
-            The combination of my passion for design, code &amp; interaction positions me in a unique place in the web design world.
-          </p>
+            Be the first to know when Quick Lotter launches in your state! Check the next locations coming soon.</p>
         </div>
         <Row className="row-cols-1 row-cols-lg-3 g-4">
           {works.map((work, idx) => (
