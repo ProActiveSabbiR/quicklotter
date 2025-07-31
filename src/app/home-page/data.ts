@@ -15,7 +15,6 @@ import client4Img from '@/assets/images/client/04.svg'
 import client5Img from '@/assets/images/client/05.svg'
 
 import { businessIcon, businessIcon2, designIcon, marketingIcon, strategicIcon, taxIcon } from '@/assets/data/icons'
-import { UserType } from '@/types/user'
 import { PartnerType, PricingType, StatisticType, ClientType, ServiceType, TestimonialType } from './types'
 
 export const clientData: ClientType[] = [
