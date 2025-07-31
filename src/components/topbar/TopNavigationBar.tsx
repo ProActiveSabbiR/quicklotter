@@ -38,8 +38,7 @@ const TopNavigationBar = ({
   children,
   ...props
 }: TopNavigationBarProps) => {
-  const isWindow = typeof window !== "undefined";
-  const { isTrue: isMenuOpen, toggle: toggleMenu } = useToggle(isWindow ? window.innerWidth >= 1200 : false)
+  const { isTrue: isMenuOpen, toggle: toggleMenu } = useToggle(window.innerWidth >= 1200)
 
   return (
     <StickyHeader className="header-absolute" {...props}>
@@ -55,7 +54,7 @@ const TopNavigationBar = ({
           <ul className="nav align-items-center ms-sm-2">
             <Suspense>{!hideThemeToggler && <ThemeToggleDropdown />}</Suspense>
 
-            {/* Sign in link */}
+            {/* Single Sign In link with icon */}
             <li className="nav-item d-none d-sm-block">
               <Link href="/auth/sign-in" className="nav-link">
                 <BsPersonCircle className="me-1" />
