@@ -16,10 +16,8 @@ import ThemeToggleDropdown from './ThemeToggleDropdown'
 
 type TopNavigationBarProps = {
   containerFluid?: boolean
-  showSignUp?: boolean
   showBuyNow?: boolean
   showSearchInput?: boolean
-  showShoppingCart?: boolean
   showFloatingSearch?: boolean
   hideThemeToggler?: boolean
   darkButton?: { text: string; size?: ButtonProps['size'] }
@@ -30,9 +28,7 @@ type TopNavigationBarProps = {
 
 const TopNavigationBar = ({
   showBuyNow,
-  showSignUp,
   showSearchInput,
-  showShoppingCart,
   navClassName,
   hideThemeToggler,
   darkButton,
@@ -42,7 +38,8 @@ const TopNavigationBar = ({
   children,
   ...props
 }: TopNavigationBarProps) => {
-  const { isTrue: isMenuOpen, toggle: toggleMenu } = useToggle(window.innerWidth >= 1200)
+  const isWindow = typeof window !== "undefined";
+  const { isTrue: isMenuOpen, toggle: toggleMenu } = useToggle(isWindow ? window.innerWidth >= 1200 : false)
 
   return (
     <StickyHeader className="header-absolute" {...props}>
@@ -58,7 +55,7 @@ const TopNavigationBar = ({
           <ul className="nav align-items-center ms-sm-2">
             <Suspense>{!hideThemeToggler && <ThemeToggleDropdown />}</Suspense>
 
-            {/* Remove Sign In and Sign Up links, add single Sign in as nav-link with icon */}
+            {/* Sign in link */}
             <li className="nav-item d-none d-sm-block">
               <Link href="/auth/sign-in" className="nav-link">
                 <BsPersonCircle className="me-1" />
