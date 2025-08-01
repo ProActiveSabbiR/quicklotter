@@ -2,13 +2,6 @@ import { UserType } from '@/types/user'
 import type { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 
-// Web-compatible random bytes generator for Edge Runtime
-function generateRandomBytes(length: number): string {
-  const array = new Uint8Array(length)
-  crypto.getRandomValues(array)
-  return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('')
-}
-
 export const fakeUsers: UserType[] = [
   {
     id: '1',
@@ -45,7 +38,6 @@ export const options: NextAuthOptions = {
         if (filteredUser) {
           return filteredUser
         } else {
-          // throw new Error('Email or Password is not valid')
           return null
         }
       },
@@ -56,21 +48,18 @@ export const options: NextAuthOptions = {
     signIn: '/auth/sign-in',
   },
   callbacks: {
-    async signIn({ }) {
+    async signIn() {
       return true
     },
-    session: ({ session }) => {
+    async session({ session }) {
       session.user = {
         email: 'user@demo.com',
         name: 'Test User',
       }
-      return Promise.resolve(session)
+      return session
     },
   },
   session: {
     maxAge: 24 * 60 * 60 * 1000,
-    generateSessionToken: () => {
-      return generateRandomBytes(32)
-    },
   },
 }
