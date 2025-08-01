@@ -23,7 +23,7 @@ const Video = () => {
                 <BsQuote className="bi" />
               </div>
               <hr className="w-50 border-2 border-white opacity-9 my-5" />
-              <h5 className="text-white fw-light">&quot;We believe a great lottery app is built with passion, innovation, and trust."&quot;</h5>
+              <h5 className="text-white fw-light">&quot;We believe a great lottery app is built with passion, innovation, and trust.&quot;</h5>
               <div className="blockquote-footer text-white mb-0 fs-6 mt-3">Quick Lotter Team</div>
             </Card>
           </Col>
