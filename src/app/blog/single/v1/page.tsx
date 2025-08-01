@@ -13,7 +13,6 @@ const page = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
         showBuyNow
       />
       <BlogDetails />
