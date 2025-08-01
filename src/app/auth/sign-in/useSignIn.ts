@@ -1,6 +1,6 @@
 'use client'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { signIn } from 'next-auth/react'
+// import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
@@ -8,11 +8,13 @@ import * as yup from 'yup'
 
 import useQueryParams from '@/hooks/useQueryParams'
 import { useNotificationContext } from '@/states/useNotificationContext'
+import { useAuthContext } from '@/states/useAuthContext'
 
 const useSignIn = () => {
   const [loading, setLoading] = useState(false)
   const { push } = useRouter()
   const { showNotification } = useNotificationContext()
+  const { saveSession } = useAuthContext()
 
   const queryParams = useQueryParams()
 
@@ -33,18 +35,27 @@ const useSignIn = () => {
 
   const login = handleSubmit(async (values: LoginFormFields) => {
     setLoading(true)
-    signIn('credentials', {
-      redirect: false,
-      email: values?.email,
-      password: values?.password,
-    }).then((res) => {
-      if (res?.ok) {
-        push(queryParams['redirectTo'] ?? '/')
-        showNotification({ message: 'Successfully logged in. Redirecting....', type: 'success' })
-      } else {
-        showNotification({ message: res?.error ?? '', type: 'danger' })
+    
+    // Temporary mock authentication without NextAuth
+    if (values.email === 'user@demo.com' && values.password === '123456') {
+      const mockUser = {
+        id: '1',
+        email: 'user@demo.com',
+        username: 'demo_user',
+        password: '123456',
+        firstName: 'Demo',
+        lastName: 'User',
+        role: 'Admin',
+        token: 'mock-token-123'
       }
-    })
+      
+      saveSession(mockUser)
+      push(queryParams['redirectTo'] ?? '/')
+      showNotification({ message: 'Successfully logged in. Redirecting....', type: 'success' })
+    } else {
+      showNotification({ message: 'Invalid credentials', type: 'danger' })
+    }
+    
     setLoading(false)
   })
 
