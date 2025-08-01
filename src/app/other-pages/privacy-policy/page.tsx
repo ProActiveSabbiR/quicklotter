@@ -1,9 +1,10 @@
+// src/app/other-pages/privacy-policy/page.tsx
 import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 import Details from './components/Details'
 import CTA from './components/CTA'
 
-const TermsNConditions = () => {
+const PrivacyPolicy = () => {
   return (
     <>
       <TopNavigationBar
@@ -16,12 +17,11 @@ const TermsNConditions = () => {
       />
       <main>
         <Details />
-
+        <CTA />
       </main>
-
       <Footer1 />
     </>
   )
 }
 
-export default TermsNConditions
+export default PrivacyPolicy
