@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body  className={Instrument.className}>
+      <body className={Instrument.className} suppressHydrationWarning>
         <PageWrapper>
           {children}
           <BackToTop />
