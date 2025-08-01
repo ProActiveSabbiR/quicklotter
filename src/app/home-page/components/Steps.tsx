@@ -2,8 +2,8 @@
 import androidImg from '@/assets/images/elements/android.svg'
 import appleImg from '@/assets/images/elements/apple.svg'
 import microSoftImg from '@/assets/images/elements/microsoft.svg'
-import placeholderImg from '@/assets/images/mokeup/app-placeholder.jpg'
-import placeholderImg3 from '@/assets/images/mokeup/app-placeholder3.jpg'
+import placeholderImg from '@/assets/images/mokeup/play.png'
+import placeholderImg3 from '@/assets/images/mokeup/app-image.jpg'
 import placeholderImg4 from '@/assets/images/mokeup/app-placeholder4.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -61,7 +61,7 @@ const Steps = () => {
                     style={{
                       background: `url(${placeholderImg3.src})`,
                       backgroundSize: '100%',
-                      width: '280px',
+                      
                       height: '430px',
                     }}>
                     <b style={{ left: '5%' }}></b>

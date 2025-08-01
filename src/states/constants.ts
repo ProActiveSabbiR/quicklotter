@@ -12,5 +12,5 @@ export const buyLink = ''
 
 export const basePath = ''
 
-export const DEFAULT_PAGE_TITLE = ' Mizzle - Next Technology and Corporate Bootstrap Theme'
+export const DEFAULT_PAGE_TITLE = ' Quick Lotter - playing with strategy'
 

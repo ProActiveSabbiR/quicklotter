@@ -2,7 +2,7 @@
 'use client'
 
 import Image from 'next/image'
-import HeroMockup from '@/assets/images/how-it-work/hw-hero-mockup.webp'
+import HeroMockup from '@/assets/images/how-it-work/app-image-portrait.png'
 
 const Hero = () => {
   return (

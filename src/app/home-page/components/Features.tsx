@@ -1,4 +1,4 @@
-import placeholderImg5 from '@/assets/images/mokeup/app-placeholder5.jpg'
+import placeholderImg5 from '@/assets/images/mokeup/feature.png'
 import { BsFingerprint, BsGear, BsShieldCheck, BsChevronBarContract, BsStarFill } from 'react-icons/bs'
 import { Col, Container, Row } from 'react-bootstrap'
 
@@ -120,7 +120,7 @@ const Features = () => {
 
               <div
                 className="iphone-x iphone-x-small m-auto mt-n9 mb-7"
-                style={{ background: `url(${placeholderImg5.src})`, backgroundSize: '100%' }}>
+                style={{ background: `url(${placeholderImg5.src})`, backgroundSize: 'cover' }}>
                 <i></i>
                 <b></b>
               </div>

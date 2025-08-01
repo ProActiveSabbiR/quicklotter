@@ -1,5 +1,7 @@
 import React from 'react';
-import FeatureImg from '@/assets/images/how-it-work/mockup-1.webp'
+import FeatureImg from '@/assets/images/how-it-work/play-left.png'
+import FeatureImg2 from '@/assets/images/how-it-work/06-left.png'
+import FeatureImg3 from '@/assets/images/how-it-work/05-left.png'
 import Image from 'next/image'
 
 
@@ -82,7 +84,7 @@ const FeaturesSection = () => {
             <div className="text-center">
               <div className="d-flex align-items-center justify-content-center" >
                 <Image
-                  src={FeatureImg}
+                  src={FeatureImg2}
                   alt="app mockup"
                   width={384}
                   height={340}
@@ -150,7 +152,7 @@ const FeaturesSection = () => {
             <div className="text-center">
               <div className="d-flex align-items-center justify-content-center" >
                 <Image
-                  src={FeatureImg}
+                  src={FeatureImg3}
                   alt="app mockup"
                   width={384}
                   height={340}
