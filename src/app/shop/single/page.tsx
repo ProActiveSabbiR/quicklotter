@@ -4,7 +4,7 @@ import Specification from './components/Specification'
 import RatingAndReview from './components/RatingAndReview'
 import SimilarProducts from './components/SimilarProducts'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
-import Footer8 from '@/components/footer/Footer8'
+import Footer1 from '@/components/footer/Footer1'
 
 const page = () => {
   return (
@@ -24,7 +24,7 @@ const page = () => {
         <SimilarProducts />
       </main>
 
-      <Footer8 />
+              <Footer1 />
     </>
   )
 }

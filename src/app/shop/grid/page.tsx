@@ -11,7 +11,7 @@ import Link from 'next/link'
 import { Fragment } from 'react'
 import { BsSearch } from 'react-icons/bs'
 import backgroundImg5 from '@/assets/images/shop/bg/05.jpg'
-import Footer8 from '@/components/footer/Footer8'
+import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
 const ShopGrid = () => {
@@ -154,7 +154,7 @@ const ShopGrid = () => {
         </Container>
       </section>
       </main>
-      <Footer8 />
+              <Footer1 />
     </>
   )
 }

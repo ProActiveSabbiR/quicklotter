@@ -1,4 +1,4 @@
-import Footer8 from '@/components/footer/Footer8'
+import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 import Link from 'next/link'
 import React from 'react'
@@ -105,7 +105,7 @@ const page = () => {
           </Container>
         </section>
       </main>
-      <Footer8 />
+              <Footer1 />
     </>
   )
 }

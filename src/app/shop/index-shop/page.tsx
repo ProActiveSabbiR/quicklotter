@@ -6,7 +6,7 @@ import ShopFeatures from './components/ShopFeatures'
 import LatestCollections from './components/LatestCollections'
 import ProductBox from './components/ProductBox'
 import BrandCollection from './components/BrandCollection'
-import Footer6 from '@/components/footer/Footer6'
+import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
 const page = () => {
@@ -26,7 +26,7 @@ const page = () => {
         <ProductBox />
         <BrandCollection />
       </main>
-      <Footer6 />
+              <Footer1 />
     </>
   )
 }

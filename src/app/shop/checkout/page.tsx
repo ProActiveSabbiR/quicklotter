@@ -2,7 +2,7 @@ import React from 'react'
 import MainTitle from './components/MainTitle'
 import CheckoutDetail from './components/CheckoutDetail'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
-import Footer8 from '@/components/footer/Footer8'
+import Footer1 from '@/components/footer/Footer1'
 
 const page = () => {
   return (
@@ -16,7 +16,7 @@ const page = () => {
         <MainTitle />
         <CheckoutDetail />
       </main>
-      <Footer8 />
+              <Footer1 />
     </>
   )
 }
