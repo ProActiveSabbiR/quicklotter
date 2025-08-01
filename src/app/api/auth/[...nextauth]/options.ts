@@ -1,7 +1,13 @@
 import { UserType } from '@/types/user'
-import { randomBytes } from 'crypto'
 import type { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
+
+// Web-compatible random bytes generator for Edge Runtime
+function generateRandomBytes(length: number): string {
+  const array = new Uint8Array(length)
+  crypto.getRandomValues(array)
+  return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('')
+}
 
 export const fakeUsers: UserType[] = [
   {
@@ -64,7 +70,7 @@ export const options: NextAuthOptions = {
   session: {
     maxAge: 24 * 60 * 60 * 1000,
     generateSessionToken: () => {
-      return randomBytes(32).toString('hex')
+      return generateRandomBytes(32)
     },
   },
 }
